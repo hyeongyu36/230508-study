@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* header */
+.wrap{
+    background-color: antiquewhite;
+    width: 1200px;
+    height: 900px;
+}
+.contents{
+    margin:50px auto;
+    width: 1000px;
+    height: 600px;
+    /* background-color: cadetblue; */
+}
+main>section{
+    margin-top: 60px;
+}
+header{
+    background-color: rgb(12, 61, 45);
+    text-align: center;
+    color: aliceblue;
+}
+.logo{
+    /* background-color:rgb(0, 255, 85); */
+    width: 30%;
+    font-size: 50px ;
+    float: left;
+    height: 100px;
+    line-height: 100px;
+}
+ul{
+    /* background-color: chocolate; */
+    /* width:70%; */
+    display: block;
+    height: 100px;
+    margin: 0 auto;
+}
+.menu>li{
+        /* padding:50px; */
+        line-height: 100px;
+        text-align: center;
+        display: inline-block;
+        margin-left: 100px;
+    
+}
+/* main영역 */
+.contents{
+    width: 1000px;
+    margin:50px auto;
+}
+.detail>img{
+    float: left;
+    border-radius: 20px;
+    margin-right: 50px;}
+
+/* footer영역 */
+.foot
+{margin-top: 100px;
+background-color: rgb(156, 211, 135);}
+.foot>li{
+    padding-left: 70px;
+    line-height: 100px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 100px;
+}
